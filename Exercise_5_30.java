@@ -42,7 +42,7 @@ public class Exercise_5_30 {
 	
 		}	//end for loop
 
-System.out.println("");
+	System.out.println("");
 	
 	double totalInterest = Math.rint((accountBalance - totalDeposit) *100.0) / 100.0;
 	
