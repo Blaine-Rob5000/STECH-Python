@@ -47,7 +47,7 @@ public class Exercise_7_15 {
 		for (int index = 1; index < 10; index++) {
 			for (int checkIndex = 0; checkIndex < index; checkIndex++) {
 				if (oldArray[index] == newArray[checkIndex]) {
-					match = true;
+					match = true;	//match detected
 				}	//end if
 				
 			}	//end for
@@ -56,7 +56,7 @@ public class Exercise_7_15 {
 				newArray[newIndexMax] = oldArray[index];
 			}	//end if
 			
-			match = false;
+			match = false;	//reset match to false
 		}
 		
 		//display the new array
