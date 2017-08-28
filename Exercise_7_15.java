@@ -1,8 +1,8 @@
 //STECH Java programming class
 //Exercise 7-15
 //created by Robin G. Blaine on 8/28/2017
-//input  - 10 numbers (stored to an array)
-//output - index and value of smallest element in the array
+//input  - 10 integers (stored to an array)
+//output - eliminate duplicates and display the new array
 
 
 //imports
