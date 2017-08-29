@@ -61,6 +61,7 @@ public class Exercise_8_11 {
 		
 		String binaryString = Integer.toBinaryString(number);
 		
+		//pads zeroes to start of string to ensure it is 9 digits long
 		while (binaryString.length() < 9) {
 			binaryString = "0" + binaryString;
 			}	//end while
