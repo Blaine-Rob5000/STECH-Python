@@ -23,15 +23,15 @@ The following is a sample of the code for rolling the die (or dice) on a single 
         self._rowOutputLabel[row].configure(text = self._rowOutput[row])
         return result * self._addSubtract[row]
 
-Motivation
+*Motivation*
 
 My motivations for this project go beyond merely completing a course assignment. I am an avid RPG gamer and many games use unusual dice (beyond the standard six polyhedrals: d4, d6, d8, d10, d12, and d20) and/or exotic mechanics that can makes rolls more complicated and time-consuming.  This program is intended to make a wide variety of dice rolls as quick and simple as a few clicks of the mouse.
 
-Installation
+*Installation*
 
 Installation of the program only requires that the user run the UltimateDiceRoller.py file.
 
-API Reference
+*API Reference*
 
 The program was more time-consuming than the alloted time for my project allowed for and, as such, is incomplete.  The GUI elements are all displayed but many are not yet functional.  
 
@@ -74,10 +74,10 @@ Finally, at the bottom of the GUI display, is a label to display the average of 
 [This option is not yet implemented.]
 
 
-Tests
+*Tests*
 
 The number, sides, and modifer for each row may be entered (click on the Entry widget and type in an appropriate integer) and the option to add, subtract, or ignore that row when calculating the final total all function.  After setting these options, the "<- Roll" buttons may be used to roll individual rows and the "Roll All" button may be used to roll all rows together and display the total.  The program still requires a great deal of work to complete, but, sadly, it falls beyond the scope of the time allowed for this project.  It is my intention to complete it on my own time at a later date.
 
-Contributors
+*Contributors*
 
 Individuals who wish to contribute to the project are free to do so. The program is incomplete and requires a great deal of work.  None of the main menu options are functioning as yet, and none of the exotic mechanics nor the averaging system have been implemented.
