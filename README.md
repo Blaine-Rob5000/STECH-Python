@@ -1,8 +1,8 @@
-Final Project for _Python Programming
+# Final Project for _Python Programming
 
 By Robin G. Blaine
 
-Synopsis
+## Synopsis
 
 This is a GUI program for rolling any number of dice with any number of sides with the option to include exotic dice-rolling mechanics such as explosions, implosions, advantage, dice pools, and custom output.
 
