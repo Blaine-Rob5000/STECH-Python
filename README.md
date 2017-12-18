@@ -33,6 +33,8 @@ Installation of the program only requires that the user run the UltimateDiceRoll
 
 *API Reference*
 
+<img src=”gui.png”/>
+
 The program was more time-consuming than the alloted time for my project allowed for and, as such, is incomplete.  The GUI elements are all displayed but many are not yet functional.  
 
 The main menu element is a drop-down list that has several (as-yet non-functional) options.  These include the option to save the current configuration of the dice roller and the option to load a saved configuration, as well as the option to reset all fields to their default values.
