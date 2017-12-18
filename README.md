@@ -6,7 +6,7 @@ By Robin G. Blaine
 
 This is a GUI program for rolling any number of dice with any number of sides with the option to include exotic dice-rolling mechanics such as explosions, implosions, advantage, dice pools, and custom output.
 
-Code Example
+*Code Example*
 
 The following is a sample of the code for rolling the die (or dice) on a single row:
 
