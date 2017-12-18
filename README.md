@@ -33,7 +33,7 @@ Installation of the program only requires that the user run the UltimateDiceRoll
 
 *API Reference*
 
-<img src=”gui.png”/>
+<img src=”https://github.com/Blaine-Rob5000/STECH-Python/blob/_Python-Final-Project-Code/GUI.png”/>
 
 The program was more time-consuming than the alloted time for my project allowed for and, as such, is incomplete.  The GUI elements are all displayed but many are not yet functional.  
 
