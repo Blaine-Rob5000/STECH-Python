@@ -39,7 +39,7 @@ The program was more time-consuming than the alloted time for my project allowed
 
 - The main menu element is a drop-down list that has several (as-yet non-functional) options.  These include the option to save the current configuration of the dice roller and the option to load a saved configuration, as well as the option to reset all fields to their default values.
 
-The main menu also contains (non-functional) checkbuttons to individually hide the GUI controls for the various exotic dice mechanics so that unused mechanics do not clutter the display or confuse the user.  After implementation, these options will allow the user to check or uncheck the option to display or hide the various mechanics.
+- The main menu also contains (non-functional) checkbuttons to individually hide the GUI controls for the various exotic dice mechanics so that unused mechanics do not clutter the display or confuse the user.  After implementation, these options will allow the user to check or uncheck the option to display or hide the various mechanics.
 
 - The two rows below the main menu contain labels for the different GUI elements of the program.
 
