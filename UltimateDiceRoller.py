@@ -289,6 +289,9 @@ class UltimateDiceRoller(Frame):
 		self._clearAverageButton = Button(self, text = "Clear Average", width = 16)
 		self._clearAverageButton.grid(row = 16, column = 14)
 		
+		self._totalRowsButton = Button(self, text = "Total Rows", command = lambda : self._totalRows())
+		self._totalRowsButton.grid(row = 14, column = 16)
+		
 		# Horizontal scrollbar
 		self._xScroll = Scrollbar(self, orient = HORIZONTAL, command = self._canvas.xview)
 		self._xScroll.grid(row = 17, column = 0, columnspan = 17, sticky = E+W)
@@ -305,7 +308,16 @@ class UltimateDiceRoller(Frame):
 		else:
 			self._addSubtract[row] = 1
 			self._addSubtractButton[row].configure(text = "+")
-			
+	
+	def _totalRows(self):
+		"""Totals all rows without re-rolling them."""
+		result = 0
+		for row in range(10):
+			if self._rowOutput[row].isdigit():
+				result += int(self._rowOutput[row]) * self._addSubtract[row]
+		self._combinedTotal = result
+		self._combinedTotalLabel.configure(text = str(result))
+	
 	def _rollRow(self, row):
 		"""Rolls the dice for a single row."""
 		num = int(self._numberOfDice[row].get())
