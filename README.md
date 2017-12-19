@@ -67,7 +67,7 @@ The program was more time-consuming than the alloted time for my project allowed
 
 - The last column contains a button (labeled "<- Roll") that rolls the dice on that row only.
 
-- Below these rows, is a Label that displays the total roll for all of the dice rows and a button to roll and total all of the rows.
+- Below these rows, is a Label that displays the total roll for all of the dice rows and a button to roll and total all of the rows, as well as a "Total" button that recalculates and displays the total of all rows without re-rolling them.
 
 - At the bottom of the GUI display, is a label to display the average of all previous rolls and a button to reset this value.
 [*This option is not yet implemented.*]
@@ -82,3 +82,7 @@ The number, sides, and modifer for each row may be entered (click on the Entry w
 *Contributors*
 
 Individuals who wish to contribute to the project are free to do so. The program is incomplete and requires a great deal of work.  None of the main menu options are functioning as yet, and none of the exotic mechanics nor the averaging system have been implemented.  An option to add or remove individual lines of dice from the GUI is also planned, so that only the  number of rolls needed by the user (up to some predetermined limit ... perhaps 20?) are displayed.
+
+*Note*
+
+I've included a sample program that is complete ("SeventhScionGUIDiceRoller.py") in this repository as well.  This program is not as comprehensive in scope as this project, but is a good example of finished code for a similar project.
